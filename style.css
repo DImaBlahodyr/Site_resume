@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Inter&family=Open+Sans&family=Roboto&display=swap');
+
+body {
+  background: #f1f1f1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #86898f;
+}
+body p {
+  font-style: italic;
+  color: darkgreen;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.card {
+  border: 2px solid gray;
+  margin: 20px 0px;
+  padding: 10px;
+  border-radius: 16px;
+  border: none;
+}
+
+.info {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.social {
+  background-color: aqua;
+}
+.hobbies {
+  background-color: antiquewhite;
+}
+
+.experience {
+  background-color: greenyellow;
+}
+.experience h2 {
+  text-align: center;
+}
+
+.form h2 {
+  text-align: center;
+}
+.form_group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+
+.form_group input,
+.form_group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #000;
+  border-bottom: 2px solid #ccc;
+  padding: 15px 0px 10px;
+  font-family: inherit;
+}
+
+.form_row .form_group {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  width: 46%;
+}
+
+.form_row .form_group {
+  display: inline-block;
+}
+
+.form .btn_submit {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.header {
+  background-color: peachpuff;
+}
+.header p {
+  display: inline-block;
+}
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+}
+img {
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 10%;
+}
+
+.btn {
+  padding: 15px;
+  margin-bottom: 3px;
+  font-family: inherit;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+.link {
+  width: 75px;
+}
+
+.btn:hover {
+  background-color: blue;
+}
+.table {
+  max-width: 50%;
+  margin: 0 auto;
+}
+.table td {
+  padding-right: 20px;
+}
+.table th {
+  text-align: left;
+}
+.table tbody tr:nth-child(even) {
+  background: lightgreen;
+}
+.table thead {
+  background: lightgreen;
+}
+.list li {
+  list-style: none;
+  margin: 10px 0px;
+  padding: 10px;
+}
+.list li:nth-child(odd) {
+  background-color: lightblue;
+}
+
+@media (max-width: 650px) {
+  .container {
+    max-width: 90%;
+    margin: auto;
+  }
+}
